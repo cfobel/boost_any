@@ -13,3 +13,10 @@ source types.
 
 Example using `boost::program_options::value_semantic` to store values which
 can parse a string to the stored value type.
+
+
+## `typed_value_options.cpp` ##
+
+Example using a custom `boost::program_options::basic_parsed_options` parser
+along with an `options_description` instance to store value types and parse
+values from attributes of a `pugi::xml_node`.
